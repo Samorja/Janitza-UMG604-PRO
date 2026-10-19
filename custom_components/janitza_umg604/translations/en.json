@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Janitza UMG 604-PRO",
+        "description": "Connect to the meter over Modbus TCP.",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "unit_id": "Modbus unit ID"
+        },
+        "data_description": {
+          "host": "IP address or hostname of the UMG 604-PRO.",
+          "port": "Modbus TCP port, usually 502.",
+          "unit_id": "Modbus device address, usually 1."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Check the address and that Modbus TCP is enabled.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}

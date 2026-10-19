@@ -1,0 +1,13 @@
+{
+  "domain": "janitza_umg604",
+  "name": "Janitza UMG 604-PRO",
+  "codeowners": ["@Samorja"],
+  "config_flow": true,
+  "documentation": "https://github.com/Samorja/Janitza-UMG604-PRO",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/Samorja/Janitza-UMG604-PRO/issues",
+  "loggers": ["pymodbus"],
+  "requirements": ["pymodbus>=3.6.0"],
+  "version": "0.1.0"
+}
